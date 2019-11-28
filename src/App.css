@@ -1,0 +1,40 @@
+.App {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  max-width: 768;
+  min-height: 100vh;
+  height: auto;
+  overflow: visible;
+  margin: 0 auto;
+  /*padding: 15px;*/
+}
+.myBoard {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 300px;
+  background: #313131;
+  padding: 15px;
+}
+.myContent {
+  border-radius: 3px;
+  padding: 15px 20px;
+  color: white;
+  background: rgb(153, 148, 250);
+  background: linear-gradient(
+    90deg,
+    rgba(153, 148, 250, 1) 0%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  cursor: pointer;
+  margin-bottom: 15px;
+}
+.myContent .title {
+  color: white;
+  margin-bottom: 10px;
+}
+.myContent .subTitle {
+  margin-bottom: 2px;
+  color: white;
+}
